@@ -50,8 +50,16 @@ body {
   border-radius: 10px;
 }
 
+.text {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  padding: 0 16px;
+}
+
 .title {
   margin: 0;
+  padding: 0;
   color: var(--color-slate-900);
   font-size: var(--size-bold);
   font-weight: 700;
@@ -62,6 +70,7 @@ body {
 
 .description {
   margin: 0;
+  padding: 0;
   color: var(--color-slate-500);
   font-size: var(--size-regular);
   font-weight: 400;
